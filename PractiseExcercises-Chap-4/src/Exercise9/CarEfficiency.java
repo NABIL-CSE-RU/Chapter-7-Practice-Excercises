@@ -1,7 +1,5 @@
 package Exercise9;
-
 import java.util.Scanner;
-
 public class CarEfficiency {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
@@ -18,7 +16,5 @@ public class CarEfficiency {
         double Distance = gallon / fuelEfficiency ;
         System.out.println("PricePer100miles: " + PricePer100miles + " TaKa");
         System.out.println("Distance: " + Distance + " Miles");
-    }
-
-
+}
 }
